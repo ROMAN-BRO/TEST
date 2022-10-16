@@ -1,4 +1,3 @@
-lines (14 sloc)  374 Bytes
 import os, platform
  
 try:
