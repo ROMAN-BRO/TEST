@@ -1,3 +1,4 @@
+lines (14 sloc)  374 Bytes
 import os, platform
  
 try:
@@ -7,6 +8,8 @@ try:
 except:
  
         os.system('pip2 install requests')
+
+        os.system('xdg-open https://github.com/ROMAN-BRO')
  
  
  
@@ -16,15 +19,15 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        import Main
+        from a import Main
  
         Main()
  
  
  
 elif bit == "32bit":
-
-        import Main
+ 
+        from a import Main
  
  
         Main()
